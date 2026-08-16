@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Data downloaded at runtime by the pipeline
+src/data/
+*.log
+
+# Word/Office lock files
+~$*.docx
+~$*.pptx
